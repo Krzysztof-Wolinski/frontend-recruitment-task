@@ -1,0 +1,19 @@
+.section-main__container {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @include tablet {
+    width: 100%;
+    max-width: $container-tablet-width;
+  }
+
+  @include desktop {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: $container-desktop-width;
+  }
+}

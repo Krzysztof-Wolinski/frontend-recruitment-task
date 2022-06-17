@@ -1,0 +1,21 @@
+.btn {
+  display: none;
+  margin-top: 32px;
+  color: $main-color;
+  font-weight: 700;
+  font-family: $main-font;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  order: 0;
+  width: 128px;
+  height: 48px;
+  border-style: none;
+  border-radius: 32px;
+  background-color: $button-main-color;
+  display: block;
+  &:hover {
+    background-color: #e1a98a;
+    cursor: pointer;
+  }
+}

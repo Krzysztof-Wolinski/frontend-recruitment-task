@@ -1,4 +1,4 @@
 .idea
 *.*~
 node_modules
-npm install gulp-sourcemaps
+npm install gulp-sourcemap

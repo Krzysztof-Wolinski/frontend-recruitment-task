@@ -1,0 +1,16 @@
+//import generic files
+@import "generic/reset";
+
+//import Settings files
+@import "settings/colors";
+@import "settings/fonts";
+@import "settings/mixins";
+@import "settings/variables";
+
+//import Elements files
+@import "elements/alert-box";
+@import "elements/box-article";
+@import "elements/box-image";
+@import "elements/button";
+@import "elements/container";
+@import "elements/section-main";
